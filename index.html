@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Cluster Checker</title>
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+        <script src="js/jquery-1.9.1.js"></script>
+        <script src="js/ajaxLoad.js"></script>
+        <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+        <link rel="stylesheet" href="css/redmond/jquery-ui-1.10.3.custom.css">
+    </head>
+    <body>
+    <div id="accordion">
+        <h3 id="um">Section 1</h3>
+        <div class="content">
+            <p>
+            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+            </p>
+        </div>
+        <h3>Section 2</h3>
+        <div>
+            <p>
+            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+            </p>
+        </div>
+    </div>
+        <script>
+            $(function() {
+                $("#accordion").accordion({heightStyle: "content"});
+            });
+        </script>
+    </body>
+</html>
